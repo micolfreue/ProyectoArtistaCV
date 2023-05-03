@@ -1,0 +1,177 @@
+header {
+    background-color: #fbe69a;
+    padding: 2rem;
+  }
+  
+  .bad {
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .textoperfil {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .textodatos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+  .idiomas {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  }
+
+ .info {
+  margin-top: 20px;
+  margin-bottom: 50px
+ }
+
+ .titulocantante {
+  width: 30vh;
+  height: 13vh;
+  background-color: antiquewhite;
+  padding: 20px;
+ 
+ }
+  .titulos { 
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 30vh;
+    height: 13vh;
+    background-color:black;
+    padding: 20px;
+  }
+
+  .titulos2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    width: 30vh;
+   height: 13vh;
+   background-color: #fbe69a;
+   padding: 20px;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   }
+
+.textazo {
+  margin-bottom: 5%;
+}
+
+.experiencia {
+margin: 20%;
+}
+  .tituloformacion {
+    margin-top: 10%;
+    margin:20%;
+  }
+
+
+  .años {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid  black ;
+    font-size: 20px; 
+    width: 10%;
+  }
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .foto {
+    flex-basis: 200px;
+    margin-right: 2rem;
+  }
+  
+  .foto img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .informacion {
+    margin-top: 5%;
+    flex-basis: calc(100% - 200px);
+  }
+  
+  .informacion h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  
+  .informacion p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .foto {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  
+    .informacion {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 1rem;
+  }
+  
+  ul li h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  ul li p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+    
+      @media screen and (min-width: 768px) {
+        main {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center; 
+          max-width: 1000px;
+          margin: 0 auto;
+        }
+      }
+      
