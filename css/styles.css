@@ -1,95 +1,42 @@
+
+body {
+  background-color: #afafaf;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 header {
-    background-color: #fbe69a;
+    background-color: #ffffff;
     padding: 2rem;
   }
-  
-  .bad {
-    font-size: 25px;
-    margin-bottom: 5%;
-    margin-top: 5%;
+
+  .logo {
+    width: 200px;
   }
 
-  .textoperfil {
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-
-  .textodatos {
-    margin-top: 20px;
-    margin-bottom: 30px;
-   }
-  .idiomas {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    
-  }
-
- .info {
-  margin-top: 20px;
-  margin-bottom: 50px
- }
-
- .titulocantante {
-  width: 30vh;
-  height: 13vh;
-  background-color: antiquewhite;
-  padding: 20px;
- 
- }
-  .titulos { 
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    width: 30vh;
-    height: 13vh;
-    background-color:black;
-    padding: 20px;
-  }
-
-  .titulos2 {
-    font-size: 20px;
-    color: black;
-    margin-bottom: 20px;
-    width: 30vh;
-   height: 13vh;
-   background-color: #fbe69a;
-   padding: 20px;
-   text-align: center;
-   align-items: center;
-   display: flex;
-   }
-
-.textazo {
-  margin-bottom: 5%;
-}
-
-.experiencia {
-margin: 20%;
-}
-  .tituloformacion {
-    margin-top: 10%;
-    margin:20%;
-  }
-
-
-  .años {
-    margin-top: 10px;
-    padding: 10px;
-    border: 2px solid  black ;
-    font-size: 20px; 
-    width: 10%;
-  }
   .contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #afafaf;
   }
-  
+
+  #nombre{
+    width: 45%;
+    text-align: center;
+  }
+  #nombre h1{
+    width: 100%;
+  }
+  #nombre p{
+    font-size: 2em;
+  }
+
   .foto {
-    flex-basis: 200px;
+    flex-basis: 50%;
     margin-right: 2rem;
   }
   
@@ -98,21 +45,104 @@ margin: 20%;
     max-width: 100%;
     height: auto;
   }
+
+ section{
+  margin-top: 2em;
+ }
+
+
+ .contendorseccion{
+  width: 95%;
+  margin: auto;
+  padding: 0,5;
+  display : flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+ }
+
+.pastilla{
+  width: 45%;
+  text-align: left;
+  background-color: #cf1c1c;
+  color: #ffffff;
+  display: inline-block;
+  margin:1%;
+  vertical-align: top;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.pastilla:hover{
+  scale: (1);
+  background-color: #ffffff;
+  color:#cf1c1c
+}
+
+main{
+  margin: 5em auto;
+  width: 90%;
+}
+
+
+#experiencia{
+  background-color: #cf1c1c;
+  width: 100%;
+  padding: 2em;
+  color: #ffffff;
+  border-radius: 10px;
+
+}
+#experiencia h2{
+  text-align: center;
+  margin: 3em;
+  font-size: 2em;
+}
+#experiencia li{
+  margin: 20px 10px;
+}
+
+#formacion{
+  width: 100%;
+  padding: 2em;
+}
+
+#formacion h2{
+  text-align: center;
+  margin: 3em;
+  font-size: 2em;
+}
+#formacion span{
+  border: 2px solid  black ;
+  font-size: 20px;
+  margin: 1em;
+  padding: 10px;
+}
+#formacion p{
+  margin: 30px;
+}
+
+footer{
+  width:100%;
+  background-color: #ffffff;
+  padding: 2em;
+}
+footer div{
+  margin: auto;
+  justify-content: center;
+}
+footer div a img{
+  width: 5%;
+  align-items: center;
+  margin: 0 30px;
+
+}
+
+
+
+
+
+
   
-  .informacion {
-    margin-top: 5%;
-    flex-basis: calc(100% - 200px);
-  }
-  
-  .informacion h1 {
-    font-size: 2.5rem;
-    margin-top: 0;
-  }
-  
-  .informacion p {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-  }
   
   @media screen and (max-width: 768px) {
     .contenedor {
@@ -170,8 +200,7 @@ margin: 20%;
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: center; 
-          max-width: 1000px;
+          max-width: 90%;
           margin: 0 auto;
         }
       }
-      
